@@ -8,7 +8,7 @@ Decided by Seun on 2026-10-22. The full plan, risk register and roadmap live in 
 | Red flags before review | Never public. Reports go to a private review queue. |
 | Reviewer anonymity | Fully unlinkable. Accounts prove eligibility; reviews carry no account reference. |
 | Review panel | In-house moderators until the platform scales. |
-| Verification | School email where available, ID card + selfie fallback (deleted within 7 days), phone OTP for all. |
+| Verification | School email where available, ID card + selfie fallback (deleted within 7 days). Phone OTP deferred (2026-10-22): launch with email sign-in only. |
 | Legal backing | None yet. Red flags still publish after in-house review, with safeguards below. |
 | Stack | Next.js on Vercel, Supabase (EU region). |
 | Staff profiles | Students propose, moderators approve. |
@@ -31,6 +31,6 @@ semester (`token_issuance` records only the count). Posting spends a token; the 
 stores only its hash (`spent_tokens`), so it can stop double spending without knowing
 who spent it. Timestamps on student content are kept to the day.
 
-Known trade-off: with unlinkable tokens the server cannot enforce "one review per
-student per lecturer". The per-semester token cap, the 48-hour delay and burst
-detection limit the damage instead.
+Accepted trade-off (Seun, 2026-10-22): with unlinkable tokens the server cannot
+strictly enforce "one review per student per lecturer". Full anonymity stays; the
+per-semester token cap, the 48-hour delay and burst detection limit duplicates instead.
