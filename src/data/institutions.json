@@ -1,0 +1,4106 @@
+[
+ {
+  "slug": "federal-college-of-education-special-oyo",
+  "name": "Federal College of Education (Special), Oyo",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-technical-akoka",
+  "name": "Federal College of Education (Technical), Akoka",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-technical-asaba",
+  "name": "Federal College of Education (Technical), Asaba",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-technical-bichi",
+  "name": "Federal College of Education (Technical), Bichi",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-technical-gombe",
+  "name": "Federal College of Education (Technical), Gombe",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Gombe",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-technical-gusau",
+  "name": "Federal College of Education (Technical), Gusau",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Zamfara",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-technical-omoku",
+  "name": "Federal College of Education (Technical), Omoku",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Rivers",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-technical-potiskum",
+  "name": "Federal College of Education (Technical), Potiskum",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Yobe",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-technical-umunze",
+  "name": "Federal College of Education (Technical), Umunze",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-abeokuta",
+  "name": "Federal College of Education, Abeokuta",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-eha-amufu",
+  "name": "Federal College of Education, Eha-Amufu",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-iwo",
+  "name": "Federal College of Education, Iwo",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-katsina",
+  "name": "Federal College of Education, Katsina",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Katsina",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-kontagora",
+  "name": "Federal College of Education, Kontagora",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Niger",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-obudu",
+  "name": "Federal College of Education, Obudu",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Cross River",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-odugbo",
+  "name": "Federal College of Education, Odugbo",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-okene",
+  "name": "Federal College of Education, Okene",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Kogi",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "federal-college-of-education-yola",
+  "name": "Federal College of Education, Yola",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Adamawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "nigerian-army-school-of-education-ilorin",
+  "name": "Nigerian Army School of Education, Ilorin",
+  "type": "college_of_education",
+  "ownership": "federal",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "african-thinkers-community-of-inquiry-college-of-education",
+  "name": "African Thinkers Community of Inquiry College of Education",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "ajetunmobi-college-of-education-irra",
+  "name": "Ajetunmobi College of Education, Irra",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "ansar-ud-deen-college-of-education",
+  "name": "Ansar-Ud-Deen College of Education",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "city-college-of-education-mararaba",
+  "name": "City College of Education, Mararaba",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-ilemona",
+  "name": "College of Education, Ilemona",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "delar-college-of-education",
+  "name": "Delar College of Education",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "havard-wilson-college-of-education",
+  "name": "Havard Wilson College of Education",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "institute-of-ecumenical-education-thinkers-corner",
+  "name": "Institute of Ecumenical Education (Thinkers Corner)",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "muftau-olanihun-college-of-education",
+  "name": "Muftau Olanihun College of Education",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "nana-aishat-memorial-college-of-education",
+  "name": "Nana Aishat Memorial College of Education",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "piaget-college-of-education",
+  "name": "Piaget College of Education",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "st-augustine-college-of-education",
+  "name": "St. Augustine College of Education",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "yewa-central-college-of-education",
+  "name": "Yewa Central College of Education",
+  "type": "college_of_education",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "a-d-rufa-i-college-for-legal-and-islamic-studies-misau",
+  "name": "A.D. Rufa'i College for Legal and Islamic Studies, Misau",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Bauchi",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "abia-state-college-of-education-technical-arochukwu",
+  "name": "Abia State College of Education (Technical), Arochukwu",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "adamawa-state-college-of-education-hong",
+  "name": "Adamawa State College of Education, Hong",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Adamawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "adamu-augie-college-of-education-argungu",
+  "name": "Adamu Augie College of Education, Argungu",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Kebbi",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "adamu-tafawa-balewa-college-of-education-kangere",
+  "name": "Adamu Tafawa Balewa College of Education, Kangere",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Bauchi",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "adeniran-ogunsanya-college-of-education",
+  "name": "Adeniran Ogunsanya College of Education",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "akwa-ibom-state-college-of-education-afaha-nsit",
+  "name": "Akwa Ibom State College of Education, Afaha Nsit",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "aminu-saleh-college-of-education-azare",
+  "name": "Aminu Saleh College of Education, Azare",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Bauchi",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "bilyaminu-othman-college-of-education-dass",
+  "name": "Bilyaminu Othman College of Education, Dass",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Bauchi",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-and-legal-studies-nguru",
+  "name": "College of Education and Legal Studies, Nguru",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Yobe",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-akamkpa",
+  "name": "College of Education, Akamkpa",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Cross River",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-akwanga",
+  "name": "College of Education, Akwanga",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-billiri",
+  "name": "College of Education, Billiri",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Gombe",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-ekiadolor",
+  "name": "College of Education, Ekiadolor",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-gindiri",
+  "name": "College of Education, Gindiri",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Plateau",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-katsina-ala",
+  "name": "College of Education, Katsina-Ala",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-lanlate",
+  "name": "College of Education, Lanlate",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-oju",
+  "name": "College of Education, Oju",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-waka-biu",
+  "name": "College of Education, Waka-Biu",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Borno",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "college-of-education-warri",
+  "name": "College of Education, Warri",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "ebonyi-state-college-of-education-ikwo",
+  "name": "Ebonyi State College of Education, Ikwo",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Ebonyi",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "enugu-state-college-of-education-technical",
+  "name": "Enugu State College of Education (Technical)",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "fct-college-of-education-zuba",
+  "name": "FCT College of Education, Zuba",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "FCT",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "imo-state-college-of-education",
+  "name": "Imo State College of Education",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Imo",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "isa-kaita-college-of-education-dutsin-ma",
+  "name": "Isa Kaita College of Education, Dutsin-Ma",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Katsina",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "jigawa-state-college-of-education-gumel",
+  "name": "Jigawa State College of Education, Gumel",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Jigawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "jigawa-state-college-of-islamic-and-legal-studies-ringim",
+  "name": "Jigawa State College of Islamic and Legal Studies, Ringim",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Jigawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "kaduna-state-college-of-education-gidan-waya",
+  "name": "Kaduna State College of Education, Gidan Waya",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "kano-state-college-of-education-and-preliminary-studies",
+  "name": "Kano State College of Education and Preliminary Studies",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "kashim-ibrahim-college-of-education-maiduguri",
+  "name": "Kashim Ibrahim College of Education, Maiduguri",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Borno",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "kogi-state-college-of-education-technical-kabba",
+  "name": "Kogi State College of Education (Technical), Kabba",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Kogi",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "kogi-state-college-of-education-ankpa",
+  "name": "Kogi State College of Education, Ankpa",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Kogi",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "kwara-state-college-of-education-technical-lafiagi",
+  "name": "Kwara State College of Education (Technical), Lafiagi",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "kwara-state-college-of-education-ilorin",
+  "name": "Kwara State College of Education, Ilorin",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "kwara-state-college-of-education-oro",
+  "name": "Kwara State College of Education, Oro",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "michael-otedola-college-of-primary-education-noforija",
+  "name": "Michael Otedola College of Primary Education, Noforija",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "mohammed-goni-college-of-legal-and-islamic-studies",
+  "name": "Mohammed Goni College of Legal and Islamic Studies",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Borno",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "moje-college-of-education-erin-ile",
+  "name": "Moje College of Education, Erin-Ile",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "niger-state-college-of-education-minna",
+  "name": "Niger State College of Education, Minna",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Niger",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "nwafor-orizu-college-of-education-nsugbe",
+  "name": "Nwafor Orizu College of Education, Nsugbe",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "osun-state-college-of-education-ilesa",
+  "name": "Osun State College of Education, Ilesa",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "sa-adatu-rimi-college-of-education-kumbotso",
+  "name": "Sa'adatu Rimi College of Education, Kumbotso",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "shehu-shagari-college-of-education-sokoto",
+  "name": "Shehu Shagari College of Education, Sokoto",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Sokoto",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "umar-suleiman-college-of-education-gashua",
+  "name": "Umar Suleiman College of Education, Gashua",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Yobe",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "yusuf-bala-usman-college-of-legal-and-general-studies-daura",
+  "name": "Yusuf Bala Usman College of Legal and General Studies, Daura",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Katsina",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "zamfara-state-college-of-education-maru",
+  "name": "Zamfara State College of Education, Maru",
+  "type": "college_of_education",
+  "ownership": "state",
+  "state": "Zamfara",
+  "source": "https://en.wikipedia.org/wiki/List_of_colleges_of_education_in_Nigeria"
+ },
+ {
+  "slug": "akanu-ibiam-federal-polytechnic",
+  "name": "Akanu Ibiam Federal Polytechnic",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Ebonyi",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "auchi-polytechnic",
+  "name": "Auchi Polytechnic",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-ayede",
+  "name": "Federal Polytechnic Ayede",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-bali",
+  "name": "Federal Polytechnic Bali",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Taraba",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-damaturu",
+  "name": "Federal Polytechnic Damaturu",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Yobe",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-daura",
+  "name": "Federal Polytechnic Daura",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Katsina",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-ede",
+  "name": "Federal Polytechnic Ede",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-ekowe",
+  "name": "Federal Polytechnic Ekowe",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Bayelsa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-idah",
+  "name": "Federal Polytechnic Idah",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Kogi",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-ile-oluji",
+  "name": "Federal Polytechnic Ile-Oluji",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-kabo",
+  "name": "Federal Polytechnic Kabo",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-kaltungo",
+  "name": "Federal Polytechnic Kaltungo",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Gombe",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-kaura-namoda",
+  "name": "Federal Polytechnic Kaura-Namoda",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Zamfara",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-monguno",
+  "name": "Federal Polytechnic Monguno",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Borno",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-nasarawa",
+  "name": "Federal Polytechnic Nasarawa",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-ngodo-isuochi",
+  "name": "Federal Polytechnic Ngodo Isuochi",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-nyak-shendam",
+  "name": "Federal Polytechnic Nyak Shendam",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Plateau",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-ohodo",
+  "name": "Federal Polytechnic Ohodo",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-oko",
+  "name": "Federal Polytechnic Oko",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-orogun",
+  "name": "Federal Polytechnic Orogun",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-ugep",
+  "name": "Federal Polytechnic Ugep",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Cross River",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-ukana",
+  "name": "Federal Polytechnic Ukana",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-wannune",
+  "name": "Federal Polytechnic Wannune",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-of-oil-and-gas-bonny",
+  "name": "Federal Polytechnic of Oil and Gas Bonny",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Rivers",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-ado-ekiti",
+  "name": "Federal Polytechnic, Ado-Ekiti",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Ekiti",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-bauchi",
+  "name": "Federal Polytechnic, Bauchi",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Bauchi",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-bida",
+  "name": "Federal Polytechnic, Bida",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Niger",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-ilaro",
+  "name": "Federal Polytechnic, Ilaro",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-mubi",
+  "name": "Federal Polytechnic, Mubi",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Adamawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-nekede",
+  "name": "Federal Polytechnic, Nekede",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Imo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "federal-polytechnic-offa",
+  "name": "Federal Polytechnic, Offa",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "hussaini-adamu-federal-polytechnic",
+  "name": "Hussaini Adamu Federal Polytechnic",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Jigawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "kaduna-polytechnic",
+  "name": "Kaduna Polytechnic",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "maritime-academy-of-nigeria",
+  "name": "Maritime Academy of Nigeria",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "national-institute-of-construction-technology-and-management",
+  "name": "National Institute of Construction Technology and Management",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "nigerian-army-college-of-environmental-science-and-technology",
+  "name": "Nigerian Army College of Environmental Science and Technology",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "nigerian-college-of-aviation-technology",
+  "name": "Nigerian College of Aviation Technology",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "petroleum-training-institute",
+  "name": "Petroleum Training Institute",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "waziri-umaru-federal-polytechnic",
+  "name": "Waziri Umaru Federal Polytechnic",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Kebbi",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "yaba-college-of-technology",
+  "name": "Yaba College of Technology",
+  "type": "polytechnic",
+  "ownership": "federal",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ajayi-polytechnic",
+  "name": "Ajayi Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ekiti",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "al-hikmah-polytechnic",
+  "name": "Al-Hikmah Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "allover-central-polytechnic",
+  "name": "Allover Central Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "american-polytechnic",
+  "name": "American Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ashi-polytechnic",
+  "name": "Ashi Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "bellarks-polytechnic",
+  "name": "Bellarks Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "best-solution-polytechnic",
+  "name": "Best Solution Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "bolmor-polytechnic",
+  "name": "Bolmor Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "brainfill-polytechnic",
+  "name": "Brainfill Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "british-transatlantic-polytechnic",
+  "name": "British Transatlantic Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "calvary-polytechnic",
+  "name": "Calvary Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "citi-polytechnic",
+  "name": "Citi Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "coastal-polytechnic",
+  "name": "Coastal Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "covenant-polytechnic",
+  "name": "Covenant Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "crown-polytechnic",
+  "name": "Crown Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ekiti",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "daboss-polytechnic",
+  "name": "Daboss Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "distinct-polytechnic",
+  "name": "Distinct Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "dorben-polytechnic",
+  "name": "Dorben Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "eastern-polytechnic",
+  "name": "Eastern Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Rivers",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "edward-olaseni-polytechnic",
+  "name": "Edward Olaseni Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ekiti-city-polytechnic",
+  "name": "Ekiti City Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ekiti",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "eko-college-of-management-and-technology",
+  "name": "Eko College of Management and Technology",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "el-thomp-polytechnic",
+  "name": "El-Thomp Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "enville-polytechnic",
+  "name": "Enville Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "fidei-polytechnic",
+  "name": "Fidei Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "first-city-polytechnic",
+  "name": "First City Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "foundation-polytechnic",
+  "name": "Foundation Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "gboko-polytechnic",
+  "name": "Gboko Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "global-polytechnic",
+  "name": "Global Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "gloryland-polytechnic",
+  "name": "Gloryland Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Kogi",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "gozie-anyachebelu-oragram-polytechnic",
+  "name": "Gozie Anyachebelu Oragram Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "grace-polytechnic",
+  "name": "Grace Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "graceland-polytechnic",
+  "name": "Graceland Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "grundtvig-polytechnic",
+  "name": "Grundtvig Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "harry-pass-polytechnic",
+  "name": "Harry Pass Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "harvarde-polytechnic",
+  "name": "Harvarde Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "heritage-polytechnic",
+  "name": "Heritage Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "hope-polytechnic",
+  "name": "Hope Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "i-con-universal-polytechnic",
+  "name": "I-Con Universal Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ibadan-city-polytechnic",
+  "name": "Ibadan City Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ibom-metropolitan-polytechnic",
+  "name": "Ibom Metropolitan Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "igbajo-polytechnic",
+  "name": "Igbajo Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "iheachukwu-madubuike-institute-of-technology",
+  "name": "Iheachukwu Madubuike Institute of Technology",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "inspire-polytechnic",
+  "name": "Inspire Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "intercontinental-college-of-technology",
+  "name": "Intercontinental College of Technology",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "interlink-polytechnic",
+  "name": "Interlink Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "iwo-city-polytechnic",
+  "name": "Iwo City Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "kings-polytechnic",
+  "name": "Kings Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "lagos-city-polytechnic",
+  "name": "Lagos City Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "landmark-polytechnic",
+  "name": "Landmark Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "lens-polytechnic",
+  "name": "Lens Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "lighthouse-polytechnic",
+  "name": "Lighthouse Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "loam-polytechnic",
+  "name": "Loam Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "marist-polytechnic",
+  "name": "Marist Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "mater-dei-polytechnic",
+  "name": "Mater Dei Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "montgomery-polytechnic",
+  "name": "Montgomery Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ekiti",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "mustibrah-polytechnic",
+  "name": "Mustibrah Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "nacabs-polytechnic",
+  "name": "NACABS Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "nogak-polytechnic",
+  "name": "NOGAK Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Cross River",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "nation-builders-polytechnic",
+  "name": "Nation Builders Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "newland-polytechnic",
+  "name": "Newland Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "novelty-polytechnic",
+  "name": "Novelty Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "odaji-agbo-polytechnic",
+  "name": "Odaji Agbo Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Cross River",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "oduduwa-polytechnic",
+  "name": "Oduduwa Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "our-saviour-institute-of-science-and-technology",
+  "name": "Our Saviour Institute of Science and Technology",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "paramount-polytechnic",
+  "name": "Paramount Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "prime-polytechnic",
+  "name": "Prime Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Kogi",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "raindrops-institute-of-management-and-technology",
+  "name": "Raindrops Institute of Management and Technology",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Imo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ronik-polytechnic",
+  "name": "Ronik Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "saf-polytechnic",
+  "name": "SAF Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "shaka-polytechnic",
+  "name": "Shaka Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "stars-polytechnic",
+  "name": "Stars Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "sure-foundation-polytechnic",
+  "name": "Sure Foundation Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "temple-gate-polytechnic",
+  "name": "Temple Gate Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "the-polytechnic-adoka",
+  "name": "The Polytechnic, Adoka",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "the-polytechnic-igbo-owu",
+  "name": "The Polytechnic, Igbo-Owu",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "the-polytechnic-ile-ife",
+  "name": "The Polytechnic, Ile-Ife",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "timeon-kairos-polytechnic",
+  "name": "TimeOn Kairos Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "trinity-polytechnic",
+  "name": "Trinity Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ultra-excellence-polytechnic",
+  "name": "Ultra Excellence Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "unique-college-of-management-and-technology",
+  "name": "Unique College of Management and Technology",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "united-polytechnic",
+  "name": "United Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Plateau",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "villanova-polytechnic",
+  "name": "Villanova Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "vineyard-polytechnic",
+  "name": "Vineyard Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "westland-polytechnic",
+  "name": "Westland Polytechnic",
+  "type": "polytechnic",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "abdu-gusau-polytechnic",
+  "name": "Abdu Gusau Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Zamfara",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "abraham-adesanya-polytechnic",
+  "name": "Abraham Adesanya Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "abubakar-tatari-ali-polytechnic",
+  "name": "Abubakar Tatari Ali Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Bauchi",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "adamawa-state-polytechnic",
+  "name": "Adamawa State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Adamawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "adeseun-ogundoyin-polytechnic",
+  "name": "Adeseun Ogundoyin Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "akawe-torkula-polytechnic",
+  "name": "Akawe Torkula Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "akwa-ibom-state-college-of-arts-and-science",
+  "name": "Akwa Ibom State College of Arts and Science",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "akwa-ibom-state-polytechnic",
+  "name": "Akwa Ibom State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "anambra-state-polytechnic",
+  "name": "Anambra State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "bayelsa-state-polytechnic",
+  "name": "Bayelsa State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Bayelsa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "benue-state-polytechnic",
+  "name": "Benue State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "binyaminu-usman-polytechnic",
+  "name": "Binyaminu Usman Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Jigawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "captain-elechi-amadi-polytechnic",
+  "name": "Captain Elechi Amadi Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Rivers",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "college-of-administration-management-and-technology-potiskum",
+  "name": "College of Administration, Management and Technology, Potiskum",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Yobe",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "college-of-agriculture-science-and-technology-gujba",
+  "name": "College of Agriculture, Science and Technology, Gujba",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Yobe",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "college-of-agriculture-science-and-technology-lafia",
+  "name": "College of Agriculture, Science and Technology, Lafia",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "cross-river-institute-of-technology-and-management",
+  "name": "Cross River Institute of Technology and Management",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Cross River",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "d-s-adegbenro-ict-polytechnic-itori-ewekoro",
+  "name": "D.S. Adegbenro ICT Polytechnic, Itori-Ewekoro",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "delta-state-maritime-polytechnic",
+  "name": "Delta State Maritime Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "delta-state-polytechnic-ogwashi-uku",
+  "name": "Delta State Polytechnic, Ogwashi-Uku",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "delta-state-polytechnic-otefe-oghara",
+  "name": "Delta State Polytechnic, Otefe-Oghara",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "edo-state-polytechnic-usen",
+  "name": "Edo State Polytechnic, Usen",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ekiti-state-college-of-agriculture-and-technology",
+  "name": "Ekiti State College of Agriculture and Technology",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Ekiti",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "gateway-polytechnic-saapade",
+  "name": "Gateway Polytechnic, Saapade",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "gombe-state-polytechnic",
+  "name": "Gombe State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Gombe",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "hassan-usman-katsina-polytechnic",
+  "name": "Hassan Usman Katsina Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Katsina",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "imo-state-polytechnic",
+  "name": "Imo State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Imo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "institute-of-management-and-technology-enugu",
+  "name": "Institute of Management and Technology, Enugu",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "isa-mustapha-agwai-polytechnic-lafia",
+  "name": "Isa Mustapha Agwai Polytechnic, Lafia",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "jigawa-state-polytechnic",
+  "name": "Jigawa State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Jigawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "kano-state-polytechnic",
+  "name": "Kano State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "katsina-institute-of-technology-and-management",
+  "name": "Katsina Institute of Technology and Management",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Katsina",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "kebbi-state-polytechnic",
+  "name": "Kebbi State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Kebbi",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "kenule-beeson-saro-wiwa-polytechnic",
+  "name": "Kenule Beeson Saro-Wiwa Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Rivers",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "kogi-state-polytechnic",
+  "name": "Kogi State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Kogi",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "kwara-state-polytechnic",
+  "name": "Kwara State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "mai-idris-alooma-polytechnic",
+  "name": "Mai-Idris Alooma Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Yobe",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "moshood-abiola-polytechnic",
+  "name": "Moshood Abiola Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "niger-state-polytechnic",
+  "name": "Niger State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Niger",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "nuhu-bamalli-polytechnic",
+  "name": "Nuhu Bamalli Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ogbonnaya-onu-polytechnic",
+  "name": "Ogbonnaya Onu Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ogun-state-institute-of-technology",
+  "name": "Ogun State Institute of Technology",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "osun-state-college-of-technology",
+  "name": "Osun State College of Technology",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "osun-state-polytechnic-iree",
+  "name": "Osun State Polytechnic, Iree",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "oyo-state-college-of-agriculture-and-technology",
+  "name": "Oyo State College of Agriculture and Technology",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "plateau-state-polytechnic",
+  "name": "Plateau State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Plateau",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "ramat-polytechnic",
+  "name": "Ramat Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Borno",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "rufus-giwa-polytechnic",
+  "name": "Rufus Giwa Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "taraba-state-polytechnic",
+  "name": "Taraba State Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Taraba",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "the-oke-ogun-polytechnic",
+  "name": "The Oke-Ogun Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "the-polytechnic-ibadan",
+  "name": "The Polytechnic, Ibadan",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "umaru-ali-shinkafi-polytechnic",
+  "name": "Umaru Ali Shinkafi Polytechnic",
+  "type": "polytechnic",
+  "ownership": "state",
+  "state": "Sokoto",
+  "source": "https://en.wikipedia.org/wiki/List_of_polytechnics_in_Nigeria"
+ },
+ {
+  "slug": "abubakar-tafawa-balewa-university",
+  "name": "Abubakar Tafawa Balewa University",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Bauchi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "adeyemi-federal-university-of-education",
+  "name": "Adeyemi Federal University of Education",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "admiralty-university-ibusa",
+  "name": "Admiralty University Ibusa",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "african-aviation-and-aerospace-university",
+  "name": "African Aviation and Aerospace University",
+  "type": "university",
+  "ownership": "federal",
+  "state": "FCT",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ahmadu-bello-university",
+  "name": "Ahmadu Bello University",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "air-force-institute-of-technology",
+  "name": "Air Force Institute of Technology",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "alex-ekwueme-federal-university-ndufu-alike-ikwo",
+  "name": "Alex Ekwueme Federal University Ndufu Alike Ikwo",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Ebonyi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "alvan-ikoku-federal-university-of-education",
+  "name": "Alvan Ikoku Federal University of Education",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Imo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "bayero-university",
+  "name": "Bayero University",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-birnin-kebbi",
+  "name": "Federal University Birnin Kebbi",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kebbi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-dutse",
+  "name": "Federal University Dutse",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Jigawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-dutsin-ma",
+  "name": "Federal University Dutsin-Ma",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Katsina",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-gashua",
+  "name": "Federal University Gashua",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Yobe",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-gusau",
+  "name": "Federal University Gusau",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Zamfara",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-kashere",
+  "name": "Federal University Kashere",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Gombe",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-lafia",
+  "name": "Federal University Lafia",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-lokoja",
+  "name": "Federal University Lokoja",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kogi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-otuoke",
+  "name": "Federal University Otuoke",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Bayelsa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-oye-ekiti",
+  "name": "Federal University Oye-Ekiti",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Ekiti",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-wukari",
+  "name": "Federal University Wukari",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Taraba",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-agriculture-abeokuta",
+  "name": "Federal University of Agriculture, Abeokuta",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-agriculture-mubi",
+  "name": "Federal University of Agriculture, Mubi",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Adamawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-agriculture-zuru",
+  "name": "Federal University of Agriculture, Zuru",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kebbi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-applied-sciences-kachia",
+  "name": "Federal University of Applied Sciences Kachia",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-education-pankshin",
+  "name": "Federal University of Education, Pankshin",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Plateau",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-education-zaria",
+  "name": "Federal University of Education, Zaria",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-health-sciences-azare",
+  "name": "Federal University of Health Sciences, Azare",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Bauchi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-petroleum-resources-effurun",
+  "name": "Federal University of Petroleum Resources Effurun",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-technology-akure",
+  "name": "Federal University of Technology Akure",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-technology-ikot-abasi",
+  "name": "Federal University of Technology Ikot Abasi",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-technology-minna",
+  "name": "Federal University of Technology Minna",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Niger",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-technology-owerri",
+  "name": "Federal University of Technology Owerri",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Imo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "federal-university-of-transportation-daura",
+  "name": "Federal University of Transportation, Daura",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Katsina",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "joseph-sarwuan-tarka-university",
+  "name": "Joseph Sarwuan Tarka University",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "michael-okpara-university-of-agriculture-umudike",
+  "name": "Michael Okpara University of Agriculture, Umudike",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "modibbo-adama-university-yola",
+  "name": "Modibbo Adama University, Yola",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Adamawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "national-open-university-of-nigeria",
+  "name": "National Open University of Nigeria",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "nigeria-police-academy-wudil",
+  "name": "Nigeria Police Academy, Wudil",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "nigerian-air-force-university",
+  "name": "Nigerian Air Force University",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "nigerian-army-university-biu",
+  "name": "Nigerian Army University, Biu",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Borno",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "nigerian-defence-academy",
+  "name": "Nigerian Defence Academy",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "nigerian-maritime-university",
+  "name": "Nigerian Maritime University",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "nnamdi-azikiwe-university",
+  "name": "Nnamdi Azikiwe University",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "obafemi-awolowo-university",
+  "name": "Obafemi Awolowo University",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "tai-solarin-federal-university-of-education",
+  "name": "Tai Solarin Federal University of Education",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-abuja",
+  "name": "University of Abuja",
+  "type": "university",
+  "ownership": "federal",
+  "state": "FCT",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-benin",
+  "name": "University of Benin",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-calabar",
+  "name": "University of Calabar",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Cross River",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-ibadan",
+  "name": "University of Ibadan",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-ilorin",
+  "name": "University of Ilorin",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-jos",
+  "name": "University of Jos",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Plateau",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-lagos",
+  "name": "University of Lagos",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-maiduguri",
+  "name": "University of Maiduguri",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Borno",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-nigeria-nsukka",
+  "name": "University of Nigeria, Nsukka",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-port-harcourt",
+  "name": "University of Port Harcourt",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Rivers",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-uyo",
+  "name": "University of Uyo",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "usmanu-danfodiyo-university",
+  "name": "Usmanu Danfodiyo University",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Sokoto",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "yusuf-maitama-sule-federal-university-of-education-kano",
+  "name": "Yusuf Maitama Sule Federal University of Education, Kano",
+  "type": "university",
+  "ownership": "federal",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "achievers-university",
+  "name": "Achievers University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "adeleke-university",
+  "name": "Adeleke University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "afe-babalola-university",
+  "name": "Afe Babalola University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ekiti",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "african-university-of-science-and-technology",
+  "name": "African University of Science and Technology",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ahman-pategi-university",
+  "name": "Ahman Pategi University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ajayi-crowther-university",
+  "name": "Ajayi Crowther University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "al-ansar-university-maiduguri",
+  "name": "Al-Ansar University Maiduguri",
+  "type": "university",
+  "ownership": "private",
+  "state": "Borno",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "al-bayan-university",
+  "name": "Al-Bayan University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kogi",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "al-hikmah-university",
+  "name": "Al-Hikmah University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "al-istiqama-university",
+  "name": "Al-Istiqama University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kano",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "al-muhibbah-open-university",
+  "name": "Al-Muhibbah Open University",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "al-qalam-university",
+  "name": "Al-Qalam University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Katsina",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "aletheia-university",
+  "name": "Aletheia University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "amadeus-university",
+  "name": "Amadeus University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "amaj-university",
+  "name": "Amaj University",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "american-university-of-nigeria",
+  "name": "American University of Nigeria",
+  "type": "university",
+  "ownership": "private",
+  "state": "Adamawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "anan-university",
+  "name": "Anan University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Plateau",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "anchor-university",
+  "name": "Anchor University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "arthur-jarvis-university",
+  "name": "Arthur Jarvis University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Cross River",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "atiba-university",
+  "name": "Atiba University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "augustine-university",
+  "name": "Augustine University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "ave-maria-university",
+  "name": "Ave Maria University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "azman-university",
+  "name": "Azman University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kano",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "baba-ahmed-university",
+  "name": "Baba-Ahmed University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kano",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "babcock-university",
+  "name": "Babcock University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "baze-university",
+  "name": "Baze University",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "bells-university-of-technology",
+  "name": "Bells University of Technology",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "benson-idahosa-university",
+  "name": "Benson Idahosa University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "bingham-university",
+  "name": "Bingham University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "bowen-university",
+  "name": "Bowen University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "british-canadian-university",
+  "name": "British Canadian University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Cross River",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "cetep-city-university",
+  "name": "CETEP City University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "caleb-university",
+  "name": "Caleb University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "canadian-university-of-nigeria",
+  "name": "Canadian University of Nigeria",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "capital-city-university",
+  "name": "Capital City University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kano",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "caritas-university",
+  "name": "Caritas University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "chrisland-university",
+  "name": "Chrisland University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "christopher-university",
+  "name": "Christopher University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "claretian-university-of-nigeria",
+  "name": "Claretian University of Nigeria",
+  "type": "university",
+  "ownership": "private",
+  "state": "Imo",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "clifford-university",
+  "name": "Clifford University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "coal-city-university",
+  "name": "Coal City University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "college-of-petroleum-and-energy-studies",
+  "name": "College of Petroleum and Energy Studies",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kaduna",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "cosmopolitan-university",
+  "name": "Cosmopolitan University",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "covenant-university",
+  "name": "Covenant University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "crawford-university",
+  "name": "Crawford University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "crescent-university",
+  "name": "Crescent University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "dominican-university-ibadan",
+  "name": "Dominican University Ibadan",
+  "type": "university",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "dominion-university",
+  "name": "Dominion University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "edusoko-university",
+  "name": "Edusoko University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Niger",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "edwin-clark-university",
+  "name": "Edwin Clark University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "eko-university-of-medical-sciences",
+  "name": "Eko University of Medical Sciences",
+  "type": "university",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "el-amin-university",
+  "name": "El-Amin University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Niger",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "elizade-university",
+  "name": "Elizade University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "elrazi-university-of-medical-sciences",
+  "name": "Elrazi University of Medical Sciences",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kano",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "european-university-of-nigeria",
+  "name": "European University of Nigeria",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "evangel-university-akaeze",
+  "name": "Evangel University, Akaeze",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ebonyi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "fountain-university",
+  "name": "Fountain University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "franco-british-international-university",
+  "name": "Franco British International University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kaduna",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "gerar-university-of-medical-sciences",
+  "name": "Gerar University of Medical Sciences",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "glorious-vision-university",
+  "name": "Glorious Vision University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Edo",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "godfrey-okoye-university",
+  "name": "Godfrey Okoye University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "greenfield-university",
+  "name": "Greenfield University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "gregory-university",
+  "name": "Gregory University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "hallmark-university",
+  "name": "Hallmark University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "havilla-university",
+  "name": "Havilla University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Cross River",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "hensard-university",
+  "name": "Hensard University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Bayelsa",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "hezekiah-university",
+  "name": "Hezekiah University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Imo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "hillside-university-of-science-and-technology",
+  "name": "Hillside University of Science and Technology",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ekiti",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "huda-university",
+  "name": "Huda University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Zamfara",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "iconic-open-university",
+  "name": "Iconic Open University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Sokoto",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "igbinedion-university",
+  "name": "Igbinedion University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "james-hope-university",
+  "name": "James Hope University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "jewel-university",
+  "name": "Jewel University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Gombe",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "joseph-ayo-babalola-university",
+  "name": "Joseph Ayo Babalola University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "karl-kumm-university",
+  "name": "Karl-Kumm University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Plateau",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "khadija-university",
+  "name": "Khadija University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Jigawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "khalifa-isiyaku-rabiu-university",
+  "name": "Khalifa Isiyaku Rabiu University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kano",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "kings-university",
+  "name": "Kings University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "koladaisi-university",
+  "name": "Koladaisi University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "kwararafa-university",
+  "name": "Kwararafa University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Taraba",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "landmark-university",
+  "name": "Landmark University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "lead-city-university",
+  "name": "Lead City University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "legacy-university-okija",
+  "name": "Legacy University Okija",
+  "type": "university",
+  "ownership": "private",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "lux-mundi-university",
+  "name": "Lux Mundi University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "madonna-university",
+  "name": "Madonna University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "maduka-university",
+  "name": "Maduka University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "maranatha-university",
+  "name": "Maranatha University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "margaret-lawrence-university",
+  "name": "Margaret Lawrence University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Delta",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "maryam-abacha-american-university-of-nigeria",
+  "name": "Maryam Abacha American University of Nigeria",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kano",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "mcpherson-university",
+  "name": "McPherson University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "mercy-medical-university",
+  "name": "Mercy Medical University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "mewar-university",
+  "name": "Mewar University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "michael-and-cecilia-ibru-university",
+  "name": "Michael and Cecilia Ibru University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "miva-open-university",
+  "name": "Miva Open University",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "mountain-top-university",
+  "name": "Mountain Top University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "mudiame-university",
+  "name": "Mudiame University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "muhammad-kamalud-deen-university",
+  "name": "Muhammad Kamalud-Deen University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "newgate-university",
+  "name": "Newgate University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Niger",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "nigerian-british-university",
+  "name": "Nigerian British University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "nigerian-university-of-technology-and-management",
+  "name": "Nigerian University of Technology and Management",
+  "type": "university",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "nile-university-of-nigeria",
+  "name": "Nile University of Nigeria",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "nok-university-kachia",
+  "name": "Nok University Kachia",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "northwest-university",
+  "name": "Northwest University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Sokoto",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "novena-university",
+  "name": "Novena University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "obong-university",
+  "name": "Obong University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "oduduwa-university",
+  "name": "Oduduwa University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ojaja-university",
+  "name": "Ojaja University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "pamo-university-of-medical-sciences",
+  "name": "PAMO University of Medical Sciences",
+  "type": "university",
+  "ownership": "private",
+  "state": "Rivers",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "pen-resource-university",
+  "name": "PEN Resource University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Gombe",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "pan-atlantic-university",
+  "name": "Pan-Atlantic University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "paul-university",
+  "name": "Paul University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "peaceland-university",
+  "name": "Peaceland University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "peter-university",
+  "name": "Peter University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Anambra",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "philomath-university",
+  "name": "Philomath University",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "phoenix-university",
+  "name": "Phoenix University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Nasarawa",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "precious-cornerstone-university",
+  "name": "Precious Cornerstone University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "prime-university",
+  "name": "Prime University",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "rayhaan-university",
+  "name": "Rayhaan University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kebbi",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "redeemer-s-university",
+  "name": "Redeemer's University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "renaissance-university",
+  "name": "Renaissance University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "rhema-university",
+  "name": "Rhema University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ritman-university",
+  "name": "Ritman University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "saisa-university-of-medical-sciences-and-technology",
+  "name": "Saisa University of Medical Sciences and Technology",
+  "type": "university",
+  "ownership": "private",
+  "state": "Sokoto",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "salem-university",
+  "name": "Salem University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kogi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "sam-maris-university",
+  "name": "Sam Maris University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "samuel-adegboyega-university",
+  "name": "Samuel Adegboyega University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "shanahan-university",
+  "name": "Shanahan University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Anambra",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "skyline-university-nigeria",
+  "name": "Skyline University Nigeria",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "southwestern-university",
+  "name": "Southwestern University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "spiritan-university",
+  "name": "Spiritan University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Abia",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "sports-university",
+  "name": "Sports University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Delta",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "summit-university",
+  "name": "Summit University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "tansian-university",
+  "name": "Tansian University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Anambra",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "the-duke-medical-university",
+  "name": "The Duke Medical University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Cross River",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "thomas-adewumi-university",
+  "name": "Thomas Adewumi University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "topfaith-university",
+  "name": "Topfaith University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Akwa Ibom",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "trinity-university",
+  "name": "Trinity University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "university-of-mkar",
+  "name": "University of Mkar",
+  "type": "university",
+  "ownership": "private",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-offa",
+  "name": "University of Offa",
+  "type": "university",
+  "ownership": "private",
+  "state": "Kwara",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "university-on-the-niger",
+  "name": "University on the Niger",
+  "type": "university",
+  "ownership": "private",
+  "state": "Anambra",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "venite-university",
+  "name": "Venite University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ekiti",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "veritas-university",
+  "name": "Veritas University",
+  "type": "university",
+  "ownership": "private",
+  "state": "FCT",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "vision-university",
+  "name": "Vision University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ogun",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "wellspring-university",
+  "name": "Wellspring University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "wesley-university",
+  "name": "Wesley University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "west-midland-open-university",
+  "name": "West Midland Open University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Oyo",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "western-delta-university",
+  "name": "Western Delta University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "westland-university",
+  "name": "Westland University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "wigwe-university",
+  "name": "Wigwe University",
+  "type": "university",
+  "ownership": "private",
+  "state": "Rivers",
+  "source": "https://www.legit.ng/education/1565796-complete-list-147-private-universities-nigeria-emerges/"
+ },
+ {
+  "slug": "abdulkadir-kure-university",
+  "name": "Abdulkadir Kure University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Niger",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "abia-state-university",
+  "name": "Abia State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Abia",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "abiola-ajimobi-technical-university",
+  "name": "Abiola Ajimobi Technical University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "adamawa-state-university",
+  "name": "Adamawa State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Adamawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "adekunle-ajasin-university",
+  "name": "Adekunle Ajasin University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "akwa-ibom-state-university",
+  "name": "Akwa Ibom State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Akwa Ibom",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "aliko-dangote-university-of-science-and-technology",
+  "name": "Aliko Dangote University of Science and Technology",
+  "type": "university",
+  "ownership": "state",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ambrose-alli-university",
+  "name": "Ambrose Alli University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "bauchi-state-university",
+  "name": "Bauchi State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Bauchi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "bayelsa-medical-university",
+  "name": "Bayelsa Medical University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Bayelsa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "benue-state-university",
+  "name": "Benue State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Benue",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "borno-state-university",
+  "name": "Borno State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Borno",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "chukwuemeka-odumegwu-ojukwu-university",
+  "name": "Chukwuemeka Odumegwu Ojukwu University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Anambra",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "delta-state-university-of-science-and-technology",
+  "name": "Delta State University of Science and Technology",
+  "type": "university",
+  "ownership": "state",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "delta-state-university-abraka",
+  "name": "Delta State University, Abraka",
+  "type": "university",
+  "ownership": "state",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "dennis-osadebay-university",
+  "name": "Dennis Osadebay University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ebonyi-state-university",
+  "name": "Ebonyi State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Ebonyi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "edo-state-university-uzairue",
+  "name": "Edo State University, Uzairue",
+  "type": "university",
+  "ownership": "state",
+  "state": "Edo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ekiti-state-university",
+  "name": "Ekiti State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Ekiti",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "emmanuel-alayande-university-of-education",
+  "name": "Emmanuel Alayande University of Education",
+  "type": "university",
+  "ownership": "state",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "enugu-state-university-of-science-and-technology",
+  "name": "Enugu State University of Science and Technology",
+  "type": "university",
+  "ownership": "state",
+  "state": "Enugu",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "gombe-state-university",
+  "name": "Gombe State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Gombe",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "gombe-state-university-of-science-and-technology",
+  "name": "Gombe State University of Science and Technology",
+  "type": "university",
+  "ownership": "state",
+  "state": "Gombe",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ibrahim-badamasi-babangida-university",
+  "name": "Ibrahim Badamasi Babangida University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Niger",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ignatius-ajuru-university-of-education",
+  "name": "Ignatius Ajuru University of Education",
+  "type": "university",
+  "ownership": "state",
+  "state": "Rivers",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "imo-state-university",
+  "name": "Imo State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Imo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "kaduna-state-university",
+  "name": "Kaduna State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Kaduna",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "kebbi-state-university-of-science-and-technology",
+  "name": "Kebbi State University of Science and Technology",
+  "type": "university",
+  "ownership": "state",
+  "state": "Kebbi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "kingsley-ozumba-mbadiwe-university",
+  "name": "Kingsley Ozumba Mbadiwe University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Imo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "kwara-state-university",
+  "name": "Kwara State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Kwara",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "ladoke-akintola-university-of-technology",
+  "name": "Ladoke Akintola University of Technology",
+  "type": "university",
+  "ownership": "state",
+  "state": "Oyo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "lagos-state-university",
+  "name": "Lagos State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "lagos-state-university-of-education",
+  "name": "Lagos State University of Education",
+  "type": "university",
+  "ownership": "state",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "lagos-state-university-of-science-and-technology",
+  "name": "Lagos State University of Science and Technology",
+  "type": "university",
+  "ownership": "state",
+  "state": "Lagos",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "nasarawa-state-university",
+  "name": "Nasarawa State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Nasarawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "niger-delta-university",
+  "name": "Niger Delta University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Bayelsa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "olabisi-onabanjo-university",
+  "name": "Olabisi Onabanjo University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Ogun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "olusegun-agagu-university-of-science-and-technology",
+  "name": "Olusegun Agagu University of Science and Technology",
+  "type": "university",
+  "ownership": "state",
+  "state": "Ondo",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "osun-state-university",
+  "name": "Osun State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Osun",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "plateau-state-university",
+  "name": "Plateau State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Plateau",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "prince-abubakar-audu-university",
+  "name": "Prince Abubakar Audu University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Kogi",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "rivers-state-university",
+  "name": "Rivers State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Rivers",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "sokoto-state-university",
+  "name": "Sokoto State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Sokoto",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "sule-lamido-university",
+  "name": "Sule Lamido University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Jigawa",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "taraba-state-university",
+  "name": "Taraba State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Taraba",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "umaru-musa-yar-adua-university",
+  "name": "Umaru Musa Yar'adua University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Katsina",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-cross-river-state",
+  "name": "University of Cross River State",
+  "type": "university",
+  "ownership": "state",
+  "state": "Cross River",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "university-of-delta",
+  "name": "University of Delta",
+  "type": "university",
+  "ownership": "state",
+  "state": "Delta",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "yobe-state-university",
+  "name": "Yobe State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Yobe",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "yusuf-maitama-sule-university-kano",
+  "name": "Yusuf Maitama Sule University Kano",
+  "type": "university",
+  "ownership": "state",
+  "state": "Kano",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ },
+ {
+  "slug": "zamfara-state-university",
+  "name": "Zamfara State University",
+  "type": "university",
+  "ownership": "state",
+  "state": "Zamfara",
+  "source": "https://en.wikipedia.org/wiki/List_of_universities_in_Nigeria"
+ }
+]
