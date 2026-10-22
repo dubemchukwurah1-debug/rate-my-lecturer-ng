@@ -1,9 +1,10 @@
 import "server-only";
 import type postgres from "postgres";
+import type { PhotoStore } from "./verification-storage";
 
 export interface QueueItem {
   id: string;
-  itemType: "review" | "facility_issue" | "staff";
+  itemType: "review" | "facility_issue" | "staff" | "verification" | "domain";
   itemId: string;
   reason: string;
   createdAt: Date;
@@ -19,6 +20,8 @@ export async function openQueue(sql: postgres.Sql): Promise<QueueItem[]> {
                when 'staff' then (select concat_ws(' ', s.title, s.full_name, '(' || s.role || ')') from staff s where s.id = q.item_id)
                when 'review' then (select concat(r.overall, '★ ', r.body) from reviews r where r.id = q.item_id)
                when 'facility_issue' then (select f.title from facility_issues f where f.id = q.item_id)
+               when 'verification' then (select 'ID card and selfie check' from verification_requests v where v.id = q.item_id)
+               when 'domain' then (select d.domain from domain_suggestions d where d.id = q.item_id)
              end, '(deleted)') as summary,
            coalesce(
              case q.item_type
@@ -27,14 +30,27 @@ export async function openQueue(sql: postgres.Sql): Promise<QueueItem[]> {
                                    join institutions i on i.id = s.institution_id where r.id = q.item_id)
                when 'facility_issue' then (select i.name from facility_issues f join institutions i on i.id = f.institution_id
                                            where f.id = q.item_id)
+               when 'verification' then (select i.name from verification_requests v join institutions i on i.id = v.institution_id
+                                         where v.id = q.item_id)
+               when 'domain' then (select i.name from domain_suggestions d join institutions i on i.id = d.institution_id
+                                   where d.id = q.item_id)
              end, '') as institution
     from moderation_queue q
     where q.resolved_at is null
     order by q.created_at`;
 }
 
-// Approving publishes the item; rejecting removes it (staff) or keeps it hidden (reviews).
-export async function resolveItem(sql: postgres.Sql, queueId: string, approve: boolean): Promise<void> {
+export async function verificationPhotos(sql: postgres.Sql, store: PhotoStore, requestId: string) {
+  const [req] = await sql`select id_card_path, selfie_path from verification_requests where id = ${requestId}`;
+  if (!req) return null;
+  const [idCard, selfie] = await Promise.all([store.signedUrl(req.id_card_path), store.signedUrl(req.selfie_path)]);
+  return { idCard, selfie };
+}
+
+// Approving publishes the item; rejecting removes it (staff) or keeps it hidden
+// (reviews). For ID checks both outcomes delete the photos and the request.
+export async function resolveItem(sql: postgres.Sql, queueId: string, approve: boolean, store: PhotoStore): Promise<void> {
+  const photosToDelete: string[] = [];
   await sql.begin(async (tx) => {
     const [item] = await tx`
       update moderation_queue set resolved_at = now() where id = ${queueId} and resolved_at is null
@@ -44,8 +60,28 @@ export async function resolveItem(sql: postgres.Sql, queueId: string, approve: b
       await tx`update staff set status = ${approve ? "approved" : "rejected"} where id = ${item.item_id}`;
     } else if (item.item_type === "review") {
       await tx`update reviews set hidden_reason = ${approve ? null : "moderator_removed"} where id = ${item.item_id}`;
+    } else if (item.item_type === "verification") {
+      const [req] = await tx`
+        delete from verification_requests where id = ${item.item_id}
+        returning user_id, institution_id, id_card_path, selfie_path, id_number_hash`;
+      if (!req) return;
+      photosToDelete.push(req.id_card_path, req.selfie_path);
+      if (approve) {
+        await tx`
+          update student_accounts set institution_id = ${req.institution_id}, verified_via = 'id_selfie', verified_at = now()
+          where user_id = ${req.user_id}`;
+        await tx`insert into used_id_cards (id_number_hash) values (${req.id_number_hash}) on conflict do nothing`;
+      }
+    } else if (item.item_type === "domain") {
+      const [suggestion] = await tx`delete from domain_suggestions where id = ${item.item_id} returning institution_id, domain`;
+      if (suggestion && approve) {
+        await tx`
+          update institutions set student_email_domains = array_append(student_email_domains, ${suggestion.domain})
+          where id = ${suggestion.institution_id} and not (${suggestion.domain} = any(student_email_domains))`;
+      }
     } else if (!approve) {
       await tx`delete from facility_issues where id = ${item.item_id}`;
     }
   });
+  if (photosToDelete.length > 0) await store.remove(photosToDelete);
 }

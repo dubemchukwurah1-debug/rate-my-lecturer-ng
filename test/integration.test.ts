@@ -17,6 +17,19 @@ describe.skipIf(!url)("against the database", () => {
     facilities: typeof import("@/lib/facilities");
     staff: typeof import("@/lib/staff");
     moderation: typeof import("@/lib/moderation");
+    verification: typeof import("@/lib/verification");
+  };
+  const photos = new Map<string, Blob>();
+  const store = {
+    put: async (path: string, file: Blob) => void photos.set(path, file),
+    remove: async (paths: string[]) => void paths.forEach((p) => photos.delete(p)),
+    signedUrl: async (path: string) => `memory://${path}`,
+  };
+  const jpeg = () => new Blob([new Uint8Array([0xff, 0xd8, 0xff])], { type: "image/jpeg" });
+  const newUser = async () => {
+    const id = randomUUID();
+    await sql`insert into auth.users (id) values (${id})`;
+    return id;
   };
 
   async function mintTokens(n: number): Promise<Token[]> {
@@ -47,7 +60,9 @@ describe.skipIf(!url)("against the database", () => {
       facilities: await import("@/lib/facilities"),
       staff: await import("@/lib/staff"),
       moderation: await import("@/lib/moderation"),
+      verification: await import("@/lib/verification"),
     };
+    process.env.ID_HASH_SECRET = "test-id-secret";
 
     sql = postgres(url!, { prepare: false, onnotice: () => {} });
     userId = randomUUID();
@@ -157,9 +172,71 @@ describe.skipIf(!url)("against the database", () => {
     const queue = await lib.moderation.openQueue(sql);
     const entry = queue.find((q) => q.itemId === id)!;
     expect(entry.summary).toContain("Musa Ibrahim Bello");
-    await lib.moderation.resolveItem(sql, entry.id, true);
+    await lib.moderation.resolveItem(sql, entry.id, true, store);
     const [row] = await sql`select status from staff where id = ${id}`;
     expect(row.status).toBe("approved");
     expect((await lib.moderation.openQueue(sql)).some((q) => q.id === entry.id)).toBe(false);
+  });
+
+  it("verifies school emails once a moderator confirms the domain", async () => {
+    const user = await newUser();
+    expect(await lib.verification.verifyBySchoolEmail(sql, user, "ada@cs.student.unn.edu.ng")).toBeNull();
+    await lib.verification.suggestDomain(
+      sql,
+      lib.verification.domainSuggestionSchema.parse({ institutionSlug: "university-of-nigeria-nsukka", domain: "@Student.UNN.edu.ng" }),
+    );
+    const entry = (await lib.moderation.openQueue(sql)).find((q) => q.itemType === "domain" && q.summary === "student.unn.edu.ng")!;
+    await lib.moderation.resolveItem(sql, entry.id, true, store);
+    expect(await lib.verification.verifyBySchoolEmail(sql, user, "ada@cs.student.unn.edu.ng")).toBe("University of Nigeria, Nsukka");
+    expect(await lib.verification.verifyBySchoolEmail(sql, await newUser(), "ada@gmail.com")).toBeNull();
+  });
+
+  it("verifies by ID card, deletes the photos, and flags a reused card", async () => {
+    const first = await newUser();
+    const input = { institutionSlug: "university-of-ibadan", idNumber: "UI/2023/0451", idCard: jpeg(), selfie: jpeg() };
+    await lib.verification.submitIdVerification(sql, store, first, input);
+    expect(photos.size).toBe(2);
+    await expect(lib.verification.submitIdVerification(sql, store, first, input)).rejects.toThrow(/already waiting/);
+
+    const entry = (await lib.moderation.openQueue(sql)).find((q) => q.itemType === "verification")!;
+    expect(entry.reason).toBe("id_check");
+    await lib.moderation.resolveItem(sql, entry.id, true, store);
+    expect(photos.size).toBe(0);
+    const [account] = await sql`select verified_via, verified_at from student_accounts where user_id = ${first}`;
+    expect(account.verified_via).toBe("id_selfie");
+    expect(account.verified_at).not.toBeNull();
+
+    // Same card, written differently, on a second account.
+    const second = await newUser();
+    await lib.verification.submitIdVerification(sql, store, second, { ...input, idNumber: "ui 2023 0451", idCard: jpeg(), selfie: jpeg() });
+    const dup = (await lib.moderation.openQueue(sql)).find((q) => q.itemType === "verification")!;
+    expect(dup.reason).toBe("duplicate_id");
+    await lib.moderation.resolveItem(sql, dup.id, false, store);
+    const [rejected] = await sql`select verified_at from student_accounts where user_id = ${second}`;
+    expect(rejected.verified_at).toBeNull();
+    expect(photos.size).toBe(0);
+  });
+
+  it("refuses non-image uploads", async () => {
+    const user = await newUser();
+    const pdf = new Blob(["%PDF"], { type: "application/pdf" });
+    await expect(
+      lib.verification.submitIdVerification(sql, store, user, { institutionSlug: "university-of-ibadan", idNumber: "1234", idCard: pdf, selfie: jpeg() }),
+    ).rejects.toThrow(/JPEG/);
+  });
+
+  it("purges ID checks older than 7 days", async () => {
+    const user = await newUser();
+    await lib.verification.submitIdVerification(sql, store, user, {
+      institutionSlug: "university-of-ibadan",
+      idNumber: "EXPIRE-1",
+      idCard: jpeg(),
+      selfie: jpeg(),
+    });
+    await sql`update verification_requests set delete_after = now() - interval '1 minute' where user_id = ${user}`;
+    expect(await lib.verification.purgeExpiredVerifications(sql, store)).toBe(1);
+    expect(photos.size).toBe(0);
+    const [left] = await sql`select count(*)::int as n from verification_requests where user_id = ${user}`;
+    expect(left.n).toBe(0);
   });
 });

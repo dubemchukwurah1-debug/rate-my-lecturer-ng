@@ -39,10 +39,19 @@ insert into moderators (user_id) values ('00000000-0000-0000-0000-000000000001')
 - `supabase/migrations/0002_phase1.sql`: facility upvotes, moderation queue, moderators.
 - `src/lib`: data access and rules (content checks, scoring, anonymous tokens, reviews, facilities, staff, moderation).
 - `src/app`: pages (search, institution, staff profile, add staff, facilities, `/moderate`) and `api/` routes.
+- `supabase/migrations/0003_signin.sql`: email-domain suggestions, ID-check fields, used ID cards.
 - `test/`: unit tests and database tests.
+
+## Going live on Supabase
+
+1. Create a project in an EU region. Run the migrations in `supabase/migrations` in order, then `supabase/seed.sql`.
+2. Auth: enable email sign-in (magic link) and add `https://<your-domain>/auth/callback` to the redirect URLs.
+3. Storage: create a **private** bucket named `verification`.
+4. Set the variables in `.env.example` on the host (Vercel). The daily cron in `vercel.json` deletes ID photos after 7 days.
+5. Add moderator accounts: `insert into moderators (user_id) values ('<auth user id>');`
 
 ## Not built yet
 
-- Sign-in (phone OTP) and student verification screens: need the Supabase project and an SMS provider.
+- Phone OTP: deferred until an SMS provider is chosen. Sign-in is email-only.
 - Flag reports, the review panel workflow and staff right of reply (Phase 2).
 - Photo uploads on facility posts (needs storage with face blurring and location stripping).
