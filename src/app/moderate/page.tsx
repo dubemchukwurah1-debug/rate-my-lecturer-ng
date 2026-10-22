@@ -17,6 +17,7 @@ const LABELS = {
   domain: "Student email domain",
   flag: "Flag",
   staff_claim: "Staff profile claim",
+  takedown: "Takedown request",
 };
 
 async function resolve(formData: FormData) {
@@ -67,7 +68,7 @@ export default async function ModeratePage() {
                   <img src={pics.selfie} alt="Selfie" className="rounded border" />
                 </div>
               )}
-              {item.reason === "red_report" ? (
+              {item.reason === "red_report" || item.itemType === "takedown" ? (
                 <Link href="/panel" className="text-sm underline">Open in the review panel</Link>
               ) : (
               <form action={resolve} className="flex gap-2">

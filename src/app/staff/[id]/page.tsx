@@ -69,6 +69,7 @@ export default async function StaffPage({ params }: { params: Promise<{ id: stri
                   {f.response ? `Response from ${staff.fullName}: ${f.response}` : `${staff.fullName} was given 7 days to respond and did not.`}
                 </p>
               )}
+              <Link href={`/takedown?type=flag&id=${f.id}`} className="mt-1 block text-xs underline">Appeal or request removal</Link>
             </div>
           ))}
         </section>
@@ -118,6 +119,7 @@ export default async function StaffPage({ params }: { params: Promise<{ id: stri
                 Response from {staff.fullName}: {r.reply}
               </blockquote>
             )}
+            <Link href={`/takedown?type=review&id=${r.id}`} className="w-fit text-xs text-neutral-500 underline">Report this review</Link>
           </article>
         ))}
       </section>

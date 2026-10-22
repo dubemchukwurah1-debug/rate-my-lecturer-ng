@@ -300,6 +300,7 @@ export async function openCaseDeadline(sql: postgres.Sql, staffId: string): Prom
 }
 
 export interface PublicFlag {
+  id: string;
   colour: FlagColour;
   text: string;
   reportCount: number;
@@ -309,7 +310,7 @@ export interface PublicFlag {
 
 export async function publicFlags(sql: postgres.Sql, staffId: string): Promise<PublicFlag[]> {
   return sql<PublicFlag[]>`
-    select f.colour, f.public_text as text, f.report_count as "reportCount", f.official_outcome_url as "officialOutcomeUrl",
+    select f.id, f.colour, f.public_text as text, f.report_count as "reportCount", f.official_outcome_url as "officialOutcomeUrl",
            case when f.colour = 'red' then r.body end as response
     from published_flags f left join flag_responses r on r.staff_id = f.staff_id
     where f.staff_id = ${staffId} and f.published_at is not null

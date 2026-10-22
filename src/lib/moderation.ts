@@ -5,7 +5,7 @@ import type { PhotoStore } from "./verification-storage";
 
 export interface QueueItem {
   id: string;
-  itemType: "review" | "facility_issue" | "staff" | "verification" | "domain" | "flag" | "staff_claim";
+  itemType: "review" | "facility_issue" | "staff" | "verification" | "domain" | "flag" | "staff_claim" | "takedown";
   itemId: string;
   reason: string;
   createdAt: Date;
@@ -27,6 +27,8 @@ export async function openQueue(sql: postgres.Sql): Promise<QueueItem[]> {
                                  from flag_reports r join staff s on s.id = r.staff_id where r.id = q.item_id)
                when 'staff_claim' then (select concat(s.full_name, ' claim. Evidence: ', c.evidence)
                                         from staff_claims c join staff s on s.id = c.staff_id where c.id = q.item_id)
+               when 'takedown' then (select concat('Takedown request about a ', replace(t.target_type, '_', ' '), ': ', t.reason)
+                                     from takedown_requests t where t.id = q.item_id)
              end, '(deleted)') as summary,
            coalesce(
              case q.item_type
@@ -93,6 +95,8 @@ export async function resolveItem(sql: postgres.Sql, queueId: string, approve: b
       if (item.reason === "red_report") throw new Error("Red reports are decided in the review panel");
       const [report] = await tx`select staff_id from flag_reports where id = ${item.item_id}`;
       if (report && approve) await publishYellow(tx, report.staff_id);
+    } else if (item.item_type === "takedown") {
+      throw new Error("Takedown requests are decided in the review panel");
     } else if (item.item_type === "staff_claim") {
       const [claim] = await tx`delete from staff_claims where id = ${item.item_id} returning staff_id, user_id`;
       if (claim && approve) await tx`update staff set claimed_by = ${claim.user_id} where id = ${claim.staff_id} and claimed_by is null`;

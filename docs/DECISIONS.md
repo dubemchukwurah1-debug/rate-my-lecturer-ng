@@ -49,3 +49,10 @@ per-semester token cap, the 48-hour delay and burst detection limit duplicates i
   once; only the key's hash is stored.
 - Known limit: under full anonymity the server cannot prove that the 3 green or 4 yellow reports come from
   different students. The per-semester token cap and moderator check for yellow are the safeguards.
+
+## Takedown and appeals (as built)
+
+- Anyone can ask for a flag, review or facility post to be removed, without an account, from a link on the item.
+- Requests appear in `/panel` with a 48-hour deadline; the moderator removes or keeps the item and must give
+  reasons, which are stored with the request.
+- The requester's email is optional and erased 90 days after the decision. Reporter identities are never shared.
