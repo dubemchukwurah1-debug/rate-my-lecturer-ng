@@ -141,14 +141,17 @@ describe.skipIf(!url)("flags against the database", () => {
 
     await expect(flags.decideCase(sql, group.cases[0].id, modId, "kept_on_file", "short")).rejects.toThrow("reasons");
     await flags.decideCase(sql, group.cases[0].id, modId, "kept_on_file", "Specific, consistent account with dates.");
-    await expect(flags.proposeRedFlag(sql, staffId, modId, "Pattern of credible reports.", "hod@ui.edu.ng")).rejects.toThrow("credible");
+    await expect(flags.proposeRedFlag(sql, staffId, modId, "Pattern of credible reports.")).rejects.toThrow("credible");
 
     const second = await file(staffId, "red", "Demanding money for marks");
     if (second.status !== "filed") throw new Error("not filed");
     const secondId = (await sql`select id from flag_reports where case_number = ${second.caseNumber}`)[0].id;
     await flags.decideCase(sql, secondId, modId, "kept_on_file", "Independent account matching the first.");
-    await expect(flags.proposeRedFlag(sql, staffId, modId, "Pattern of credible reports.", "")).rejects.toThrow("told");
-    await flags.proposeRedFlag(sql, staffId, modId, "Pattern of credible reports.", "hod@ui.edu.ng");
+    expect(await flags.openCaseDeadline(sql, staffId)).toBeNull();
+    await flags.proposeRedFlag(sql, staffId, modId, "Pattern of credible reports.");
+    expect(await flags.openCaseDeadline(sql, staffId)).toBeInstanceOf(Date);
+    const [logged] = await sql`select reasons from case_decisions where report_id = ${secondId} and decision = 'awaiting_reply'`;
+    expect(logged.reasons).toContain("profile page notice");
     expect(await flags.caseStatus(sql, second.caseNumber, second.caseKey)).toContain("7 days");
     expect(await flags.publicFlags(sql, staffId)).toEqual([]);
 
@@ -168,6 +171,7 @@ describe.skipIf(!url)("flags against the database", () => {
     const [shown] = await flags.publicFlags(sql, staffId);
     expect(shown).toMatchObject({ colour: "red", reportCount: 2, text: flags.RED_PUBLIC_TEXT });
     expect(shown.response).toContain("I deny");
+    expect(await flags.openCaseDeadline(sql, staffId)).toBeNull();
 
     const [{ n }] = await sql`
       select count(*)::int as n from case_decisions d join flag_reports r on r.id = d.report_id where r.staff_id = ${staffId}`;

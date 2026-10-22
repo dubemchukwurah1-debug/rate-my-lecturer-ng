@@ -244,11 +244,14 @@ export async function decideCase(
   });
 }
 
+export const CASE_NOTICE_TEXT =
+  "A case about this profile is open. If you are this staff member, claim the profile to respond.";
+
 // Starts the right-of-reply window. Needs two credible reports, or one with an
-// official outcome, and a record of how the staff member was told.
-export async function proposeRedFlag(sql: postgres.Sql, staffId: string, moderatorId: string, reasons: string, noticeSentTo: string) {
+// official outcome. A claimed profile is told through the staff portal; an
+// unclaimed one shows CASE_NOTICE_TEXT on its page for the window (Seun, 2026-10-22).
+export async function proposeRedFlag(sql: postgres.Sql, staffId: string, moderatorId: string, reasons: string, extraNotice = "") {
   if (reasons.trim().length < 10) throw new PanelError("Write down the reasons for this decision");
-  if (noticeSentTo.trim().length < 3) throw new PanelError("Record how the staff member was told (email address or claimed account)");
   await sql.begin(async (tx) => {
     const credible = await tx`
       select id, official_outcome_url from flag_reports
@@ -257,6 +260,8 @@ export async function proposeRedFlag(sql: postgres.Sql, staffId: string, moderat
     if (credible.length < RED_MIN_CREDIBLE && !hasOutcome) {
       throw new PanelError(`Needs ${RED_MIN_CREDIBLE} independent credible reports, or an official outcome`);
     }
+    const [staff] = await tx`select claimed_by from staff where id = ${staffId}`;
+    const notice = [staff?.claimed_by ? "staff portal" : "profile page notice", extraNotice.trim()].filter(Boolean).join("; ");
     await tx`
       insert into published_flags (staff_id, colour, public_text, official_outcome_url, report_count, reply_deadline, notice_sent_at)
       values (${staffId}, 'red', ${hasOutcome ? RED_OUTCOME_TEXT : RED_PUBLIC_TEXT},
@@ -267,7 +272,7 @@ export async function proposeRedFlag(sql: postgres.Sql, staffId: string, moderat
         notice_sent_at = coalesce(published_flags.notice_sent_at, excluded.notice_sent_at)`;
     for (const c of credible) {
       await tx`update flag_reports set status = 'awaiting_reply' where id = ${c.id}`;
-      await logDecision(tx, c.id, moderatorId, "awaiting_reply", `${reasons} (notice sent to: ${noticeSentTo})`);
+      await logDecision(tx, c.id, moderatorId, "awaiting_reply", `${reasons} (notice: ${notice})`);
     }
   });
 }
@@ -284,6 +289,14 @@ export async function publishRedFlag(sql: postgres.Sql, staffId: string, moderat
       returning id`;
     for (const r of reports) await logDecision(tx, r.id, moderatorId, "published", reasons);
   });
+}
+
+// The reply deadline while a red case is in its reply window, for the profile notice.
+export async function openCaseDeadline(sql: postgres.Sql, staffId: string): Promise<Date | null> {
+  const [row] = await sql`
+    select reply_deadline from published_flags
+    where staff_id = ${staffId} and colour = 'red' and published_at is null and reply_deadline is not null`;
+  return row ? new Date(row.reply_deadline) : null;
 }
 
 export interface PublicFlag {

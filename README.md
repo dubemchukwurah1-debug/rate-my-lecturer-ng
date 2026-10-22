@@ -59,5 +59,4 @@ insert into moderators (user_id) values ('00000000-0000-0000-0000-000000000001')
 
 - Phone OTP: deferred until an SMS provider is chosen. Sign-in is email-only.
 - Takedown and appeal form for published flags (next).
-- Automatic notice to staff who have not claimed their profile. The panel records how it told them.
 - Photo uploads on facility posts (needs storage with face blurring and location stripping).

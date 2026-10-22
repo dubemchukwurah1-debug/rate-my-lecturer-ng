@@ -25,7 +25,7 @@ async function decide(form: FormData) {
 async function propose(form: FormData) {
   "use server";
   const by = await moderatorOrThrow();
-  await proposeRedFlag(db(), z.guid().parse(form.get("staffId")), by, String(form.get("reasons") ?? ""), String(form.get("noticeSentTo") ?? ""));
+  await proposeRedFlag(db(), z.guid().parse(form.get("staffId")), by, String(form.get("reasons") ?? ""), String(form.get("extraNotice") ?? ""));
   revalidatePath("/panel");
 }
 
@@ -92,9 +92,13 @@ export default async function PanelPage() {
               <form action={propose} className="flex flex-col gap-2 border-t border-neutral-200 pt-3 dark:border-neutral-800">
                 <p className="text-sm">{credible} credible report(s). Start the 7-day reply window:</p>
                 <input type="hidden" name="staffId" value={g.staffId} />
-                <input name="noticeSentTo" required placeholder="How they were told (staff email, claimed account)" className={input} />
+                <p className="text-xs text-neutral-500">
+                  The staff member is told through their portal if they have claimed the profile; otherwise a neutral notice
+                  shows on the profile for 7 days.
+                </p>
+                <input name="extraNotice" placeholder="Any other notice given (optional, recorded)" className={input} />
                 <textarea name="reasons" required minLength={10} rows={2} placeholder="Reasons (recorded)" className={input} />
-                <button className="w-fit rounded bg-amber-700 px-3 py-1 text-sm text-white">Notify and start reply window</button>
+                <button className="w-fit rounded bg-amber-700 px-3 py-1 text-sm text-white">Start reply window</button>
               </form>
             )}
             {awaiting && (

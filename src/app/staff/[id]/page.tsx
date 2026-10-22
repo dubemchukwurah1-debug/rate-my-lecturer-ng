@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { z } from "zod";
 import { StarDisplay } from "@/components/stars";
 import { db, hasDatabase } from "@/lib/db";
-import { publicFlags } from "@/lib/flags";
+import { CASE_NOTICE_TEXT, openCaseDeadline, publicFlags } from "@/lib/flags";
 import { staffProfile } from "@/lib/queries";
 import { MIN_REVIEWS_FOR_SCORE } from "@/lib/scoring";
 import ReviewForm from "./review-form";
@@ -27,6 +27,7 @@ export default async function StaffPage({ params }: { params: Promise<{ id: stri
   const staff = await staffProfile(id);
   if (!staff) notFound();
   const flags = await publicFlags(db(), staff.id);
+  const caseDeadline = await openCaseDeadline(db(), staff.id);
 
   return (
     <main className="mx-auto flex max-w-3xl flex-col gap-6 px-4 py-10">
@@ -44,6 +45,13 @@ export default async function StaffPage({ params }: { params: Promise<{ id: stri
           {staff.status === "left" ? " · No longer at this institution" : ""}
         </p>
       </header>
+
+      {caseDeadline && (
+        <p className="rounded-lg border border-neutral-300 p-3 text-sm dark:border-neutral-700">
+          {CASE_NOTICE_TEXT} Responses are open until {caseDeadline.toDateString()}.{" "}
+          <Link href={`/staff/${staff.id}/claim`} className="underline">Claim this profile</Link>
+        </p>
+      )}
 
       {flags.length > 0 && (
         <section className="flex flex-col gap-2">
