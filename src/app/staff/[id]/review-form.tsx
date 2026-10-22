@@ -138,10 +138,9 @@ export default function ReviewForm({ staffId, role }: { staffId: string; role: "
       </label>
       <FormErrors messages={errors} />
       {redirectToReport && (
-        <p className="text-sm">
-          Private misconduct reports open in the next release. Until then, your school&apos;s harassment committee or the
-          police gender desk can take a report.
-        </p>
+        <a href={`/staff/${staffId}/report?colour=red`} className="text-sm font-medium underline">
+          File a private misconduct report instead
+        </a>
       )}
       <button disabled={state === "sending"} className="rounded-lg bg-neutral-900 px-4 py-2 text-white disabled:opacity-50 dark:bg-white dark:text-neutral-900">
         {state === "sending" ? "Posting…" : "Post review"}
