@@ -77,6 +77,7 @@ export default async function InstitutionPage({ params }: { params: Promise<{ sl
                     {f.category}{f.location ? ` · ${f.location}` : ""} · {STATUS_LABELS[f.status] ?? f.status}
                   </p>
                   <p className="text-sm whitespace-pre-line">{f.description}</p>
+                  <Link href={`/takedown?type=facility_issue&id=${f.id}`} className="w-fit text-xs text-neutral-500 underline">Report this post</Link>
                 </div>
               </li>
             ))}

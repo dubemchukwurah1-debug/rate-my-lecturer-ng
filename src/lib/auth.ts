@@ -1,7 +1,11 @@
 import "server-only";
-import { createServerClient } from "@supabase/ssr";
-import { cookies } from "next/headers";
 import { db } from "./db";
+import { supabaseConfigured, supabaseForRequest } from "./supabase-server";
+
+export interface User {
+  id: string;
+  email: string | null;
+}
 
 export interface Student {
   userId: string;
@@ -9,19 +13,18 @@ export interface Student {
   isAlumni: boolean;
 }
 
-export async function currentUserId(): Promise<string | null> {
+export async function currentUser(): Promise<User | null> {
   // Local development without Supabase Auth: act as a fixed test account.
-  if (process.env.NODE_ENV !== "production" && process.env.DEV_FAKE_USER_ID) return process.env.DEV_FAKE_USER_ID;
+  if (process.env.NODE_ENV !== "production" && process.env.DEV_FAKE_USER_ID) {
+    return { id: process.env.DEV_FAKE_USER_ID, email: process.env.DEV_FAKE_EMAIL ?? null };
+  }
+  if (!supabaseConfigured()) return null;
+  const { data } = await (await supabaseForRequest()).auth.getUser();
+  return data.user ? { id: data.user.id, email: data.user.email ?? null } : null;
+}
 
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if (!url || !key) return null;
-  const cookieStore = await cookies();
-  const supabase = createServerClient(url, key, {
-    cookies: { getAll: () => cookieStore.getAll(), setAll: () => {} },
-  });
-  const { data } = await supabase.auth.getUser();
-  return data.user?.id ?? null;
+export async function currentUserId(): Promise<string | null> {
+  return (await currentUser())?.id ?? null;
 }
 
 // The signed-in account, if it has passed student verification. Phone OTP is

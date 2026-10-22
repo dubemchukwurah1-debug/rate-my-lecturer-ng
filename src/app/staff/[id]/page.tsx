@@ -2,12 +2,19 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { z } from "zod";
 import { StarDisplay } from "@/components/stars";
-import { hasDatabase } from "@/lib/db";
+import { db, hasDatabase } from "@/lib/db";
+import { CASE_NOTICE_TEXT, openCaseDeadline, publicFlags } from "@/lib/flags";
 import { staffProfile } from "@/lib/queries";
 import { MIN_REVIEWS_FOR_SCORE } from "@/lib/scoring";
 import ReviewForm from "./review-form";
 
 export const dynamic = "force-dynamic";
+
+const FLAG_STYLES = {
+  red: "border-red-300 bg-red-50 dark:border-red-800 dark:bg-red-950",
+  yellow: "border-amber-300 bg-amber-50 dark:border-amber-800 dark:bg-amber-950",
+  green: "border-green-300 bg-green-50 dark:border-green-800 dark:bg-green-950",
+};
 
 const SUB_LABELS = {
   lecturer: { clarity: "Clarity", fairness: "Fair grading", availability: "Availability", respect: "Respect" },
@@ -19,6 +26,8 @@ export default async function StaffPage({ params }: { params: Promise<{ id: stri
   if (!hasDatabase() || !z.guid().safeParse(id).success) notFound();
   const staff = await staffProfile(id);
   if (!staff) notFound();
+  const flags = await publicFlags(db(), staff.id);
+  const caseDeadline = await openCaseDeadline(db(), staff.id);
 
   return (
     <main className="mx-auto flex max-w-3xl flex-col gap-6 px-4 py-10">
@@ -36,6 +45,35 @@ export default async function StaffPage({ params }: { params: Promise<{ id: stri
           {staff.status === "left" ? " · No longer at this institution" : ""}
         </p>
       </header>
+
+      {caseDeadline && (
+        <p className="rounded-lg border border-neutral-300 p-3 text-sm dark:border-neutral-700">
+          {CASE_NOTICE_TEXT} Responses are open until {caseDeadline.toDateString()}.{" "}
+          <Link href={`/staff/${staff.id}/claim`} className="underline">Claim this profile</Link>
+        </p>
+      )}
+
+      {flags.length > 0 && (
+        <section className="flex flex-col gap-2">
+          {flags.map((f) => (
+            <div key={f.colour} className={`rounded-lg border p-3 text-sm ${FLAG_STYLES[f.colour]}`}>
+              <p className="font-medium">
+                {f.colour[0].toUpperCase() + f.colour.slice(1)} flag · {f.reportCount} reports
+              </p>
+              <p>{f.text}</p>
+              {f.officialOutcomeUrl && (
+                <a href={f.officialOutcomeUrl} className="underline" rel="nofollow noopener">Official outcome</a>
+              )}
+              {f.colour === "red" && (
+                <p className="mt-2 text-xs">
+                  {f.response ? `Response from ${staff.fullName}: ${f.response}` : `${staff.fullName} was given 7 days to respond and did not.`}
+                </p>
+              )}
+              <Link href={`/takedown?type=flag&id=${f.id}`} className="mt-1 block text-xs underline">Appeal or request removal</Link>
+            </div>
+          ))}
+        </section>
+      )}
 
       <section className="rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
         {staff.score ? (
@@ -81,11 +119,18 @@ export default async function StaffPage({ params }: { params: Promise<{ id: stri
                 Response from {staff.fullName}: {r.reply}
               </blockquote>
             )}
+            <Link href={`/takedown?type=review&id=${r.id}`} className="w-fit text-xs text-neutral-500 underline">Report this review</Link>
           </article>
         ))}
       </section>
 
       <ReviewForm staffId={staff.id} role={staff.role} />
+
+      <section className="flex flex-wrap gap-4 text-sm">
+        <Link href={`/staff/${staff.id}/report`} className="underline">Flag this person</Link>
+        <Link href={`/staff/${staff.id}/report?colour=red`} className="underline">Report serious misconduct privately</Link>
+        <Link href={`/staff/${staff.id}/claim`} className="text-neutral-500 underline">Are you {staff.fullName}? Claim this profile</Link>
+      </section>
     </main>
   );
 }
