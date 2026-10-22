@@ -1,10 +1,11 @@
 import "server-only";
 import type postgres from "postgres";
+import { publishYellow } from "./flags";
 import type { PhotoStore } from "./verification-storage";
 
 export interface QueueItem {
   id: string;
-  itemType: "review" | "facility_issue" | "staff" | "verification" | "domain";
+  itemType: "review" | "facility_issue" | "staff" | "verification" | "domain" | "flag" | "staff_claim";
   itemId: string;
   reason: string;
   createdAt: Date;
@@ -22,6 +23,10 @@ export async function openQueue(sql: postgres.Sql): Promise<QueueItem[]> {
                when 'facility_issue' then (select f.title from facility_issues f where f.id = q.item_id)
                when 'verification' then (select 'ID card and selfie check' from verification_requests v where v.id = q.item_id)
                when 'domain' then (select d.domain from domain_suggestions d where d.id = q.item_id)
+               when 'flag' then (select concat(initcap(r.colour::text), ' report about ', s.full_name, ': ', r.category)
+                                 from flag_reports r join staff s on s.id = r.staff_id where r.id = q.item_id)
+               when 'staff_claim' then (select concat(s.full_name, ' claim. Evidence: ', c.evidence)
+                                        from staff_claims c join staff s on s.id = c.staff_id where c.id = q.item_id)
              end, '(deleted)') as summary,
            coalesce(
              case q.item_type
@@ -34,6 +39,10 @@ export async function openQueue(sql: postgres.Sql): Promise<QueueItem[]> {
                                          where v.id = q.item_id)
                when 'domain' then (select i.name from domain_suggestions d join institutions i on i.id = d.institution_id
                                    where d.id = q.item_id)
+               when 'flag' then (select i.name from flag_reports r join staff s on s.id = r.staff_id
+                                 join institutions i on i.id = s.institution_id where r.id = q.item_id)
+               when 'staff_claim' then (select i.name from staff_claims c join staff s on s.id = c.staff_id
+                                        join institutions i on i.id = s.institution_id where c.id = q.item_id)
              end, '') as institution
     from moderation_queue q
     where q.resolved_at is null
@@ -54,7 +63,7 @@ export async function resolveItem(sql: postgres.Sql, queueId: string, approve: b
   await sql.begin(async (tx) => {
     const [item] = await tx`
       update moderation_queue set resolved_at = now() where id = ${queueId} and resolved_at is null
-      returning item_type, item_id`;
+      returning item_type, item_id, reason`;
     if (!item) return;
     if (item.item_type === "staff") {
       await tx`update staff set status = ${approve ? "approved" : "rejected"} where id = ${item.item_id}`;
@@ -79,6 +88,14 @@ export async function resolveItem(sql: postgres.Sql, queueId: string, approve: b
           update institutions set student_email_domains = array_append(student_email_domains, ${suggestion.domain})
           where id = ${suggestion.institution_id} and not (${suggestion.domain} = any(student_email_domains))`;
       }
+    } else if (item.item_type === "flag") {
+      // Red reports are decided in the panel, where every decision records its reasons.
+      if (item.reason === "red_report") throw new Error("Red reports are decided in the review panel");
+      const [report] = await tx`select staff_id from flag_reports where id = ${item.item_id}`;
+      if (report && approve) await publishYellow(tx, report.staff_id);
+    } else if (item.item_type === "staff_claim") {
+      const [claim] = await tx`delete from staff_claims where id = ${item.item_id} returning staff_id, user_id`;
+      if (claim && approve) await tx`update staff set claimed_by = ${claim.user_id} where id = ${claim.staff_id} and claimed_by is null`;
     } else if (!approve) {
       await tx`delete from facility_issues where id = ${item.item_id}`;
     }
