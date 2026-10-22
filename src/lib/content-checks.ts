@@ -10,7 +10,7 @@ export interface CheckResult {
   redirectToReport: boolean;
 }
 
-const PHONE = /(?:\+?234|\b0)[789][01]\d{8}\b/;
+const PHONE = /(?:\+?234|(?<!\d)0)[789][01]\d{8}(?!\d)/;
 const EMAIL = /[\w.+-]+@[\w-]+\.[\w.-]+/;
 
 // Kept short on purpose; the moderation team extends these lists.

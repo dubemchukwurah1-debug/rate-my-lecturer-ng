@@ -24,3 +24,10 @@ create table moderation_queue (
   resolved_at timestamptz
 );
 alter table moderation_queue enable row level security;
+
+-- Accounts allowed to use the moderation page.
+create table moderators (
+  user_id uuid primary key references auth.users on delete cascade,
+  added_at timestamptz not null default now()
+);
+alter table moderators enable row level security;

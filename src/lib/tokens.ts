@@ -17,7 +17,8 @@ function loadKeys() {
     const pub = process.env.TOKEN_PUBLIC_KEY;
     if (!priv || !pub) throw new Error("TOKEN_PRIVATE_KEY and TOKEN_PUBLIC_KEY must be set");
     const [privateKey, publicKey] = await Promise.all([
-      crypto.subtle.importKey("pkcs8", fromBase64(priv), KEY_ALGORITHM, false, ["sign"]),
+      // blindrsa-ts reads the key's parameters, so it must be extractable.
+      crypto.subtle.importKey("pkcs8", fromBase64(priv), KEY_ALGORITHM, true, ["sign"]),
       crypto.subtle.importKey("spki", fromBase64(pub), KEY_ALGORITHM, true, ["verify"]),
     ]);
     return { privateKey, publicKey };

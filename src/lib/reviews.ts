@@ -12,7 +12,7 @@ const stars = z.number().int().min(1).max(5);
 export const tokenSchema = z.object({ msg: z.string().min(1), sig: z.string().min(1) });
 
 export const reviewSchema = z.object({
-  staffId: z.uuid(),
+  staffId: z.guid(),
   courseCode: z
     .string()
     .trim()

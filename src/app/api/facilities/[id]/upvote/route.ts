@@ -9,7 +9,7 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
   try {
     const student = await verifiedStudent();
     if (!student) return jsonError("Verify your student status first", 401);
-    const id = z.uuid().parse((await params).id);
+    const id = z.guid().parse((await params).id);
     const counted = await upvoteFacilityIssue(db(), id, student.userId);
     return NextResponse.json({ counted });
   } catch (err) {

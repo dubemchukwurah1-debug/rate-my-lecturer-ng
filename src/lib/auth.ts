@@ -9,7 +9,7 @@ export interface Student {
   isAlumni: boolean;
 }
 
-async function currentUserId(): Promise<string | null> {
+export async function currentUserId(): Promise<string | null> {
   // Local development without Supabase Auth: act as a fixed test account.
   if (process.env.NODE_ENV !== "production" && process.env.DEV_FAKE_USER_ID) return process.env.DEV_FAKE_USER_ID;
 
@@ -32,4 +32,11 @@ export async function verifiedStudent(): Promise<Student | null> {
     select institution_id, is_alumni from student_accounts
     where user_id = ${userId} and verified_at is not null and phone_verified_at is not null`;
   return row ? { userId, institutionId: row.institution_id, isAlumni: row.is_alumni } : null;
+}
+
+export async function isModerator(): Promise<string | null> {
+  const userId = await currentUserId();
+  if (!userId) return null;
+  const [row] = await db()`select user_id from moderators where user_id = ${userId}`;
+  return row ? userId : null;
 }

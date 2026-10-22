@@ -16,7 +16,7 @@ const SUB_LABELS = {
 
 export default async function StaffPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  if (!hasDatabase() || !z.uuid().safeParse(id).success) notFound();
+  if (!hasDatabase() || !z.guid().safeParse(id).success) notFound();
   const staff = await staffProfile(id);
   if (!staff) notFound();
 
