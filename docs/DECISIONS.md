@@ -8,7 +8,7 @@ Decided by Seun on 2026-10-22. The full plan, risk register and roadmap live in 
 | Red flags before review | Never public. Reports go to a private review queue. |
 | Reviewer anonymity | Fully unlinkable. Accounts prove eligibility; reviews carry no account reference. |
 | Review panel | In-house moderators until the platform scales. |
-| Verification | School email where available, ID card + selfie fallback (deleted within 7 days), phone OTP for all. |
+| Verification | School email where available, ID card + selfie fallback (deleted within 7 days). Phone OTP deferred (2026-10-22): launch with email sign-in only. |
 | Legal backing | None yet. Red flags still publish after in-house review, with safeguards below. |
 | Stack | Next.js on Vercel, Supabase (EU region). |
 | Staff profiles | Students propose, moderators approve. |

@@ -24,13 +24,14 @@ export async function currentUserId(): Promise<string | null> {
   return data.user?.id ?? null;
 }
 
-// The signed-in account, if it has passed phone OTP and student verification.
+// The signed-in account, if it has passed student verification. Phone OTP is
+// deferred until an SMS provider is chosen, so it is not required yet.
 export async function verifiedStudent(): Promise<Student | null> {
   const userId = await currentUserId();
   if (!userId) return null;
   const [row] = await db()`
     select institution_id, is_alumni from student_accounts
-    where user_id = ${userId} and verified_at is not null and phone_verified_at is not null`;
+    where user_id = ${userId} and verified_at is not null`;
   return row ? { userId, institutionId: row.institution_id, isAlumni: row.is_alumni } : null;
 }
 
