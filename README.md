@@ -43,6 +43,7 @@ insert into moderators (user_id) values ('00000000-0000-0000-0000-000000000001')
 - `supabase/migrations/0004_flags.sql`: report case keys, staff claims, flag responses.
 - Phase 2 pages: `/staff/[id]/report` (file a flag), `/case` (follow a case), `/panel` (red-flag review panel),
   `/staff/[id]/claim` and `/portal` (staff right of reply).
+- `supabase/migrations/0005_takedown.sql` and `/takedown`: appeal and removal requests, decided in `/panel`.
 - `test/`: unit tests and database tests.
 
 ## Going live on Supabase
@@ -58,5 +59,5 @@ insert into moderators (user_id) values ('00000000-0000-0000-0000-000000000001')
 ## Not built yet
 
 - Phone OTP: deferred until an SMS provider is chosen. Sign-in is email-only.
-- Takedown and appeal form for published flags (next).
+- Outcome emails for takedown requests: moderators reply by hand to the address given until an email service is set up.
 - Photo uploads on facility posts (needs storage with face blurring and location stripping).

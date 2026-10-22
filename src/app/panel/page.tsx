@@ -5,6 +5,7 @@ import { z } from "zod";
 import { isModerator } from "@/lib/auth";
 import { db, hasDatabase } from "@/lib/db";
 import { decideCase, openRedCases, proposeRedFlag, publishRedFlag, RED_MIN_CREDIBLE } from "@/lib/flags";
+import { decideTakedown, openTakedowns } from "@/lib/takedown";
 
 export const dynamic = "force-dynamic";
 
@@ -36,11 +37,18 @@ async function publish(form: FormData) {
   revalidatePath("/panel");
 }
 
+async function takedown(form: FormData) {
+  "use server";
+  const by = await moderatorOrThrow();
+  await decideTakedown(db(), z.guid().parse(form.get("id")), by, form.get("decision") === "remove", String(form.get("reasons") ?? ""));
+  revalidatePath("/panel");
+}
+
 const input = "rounded border px-2 py-1.5 text-sm dark:bg-neutral-900";
 
 export default async function PanelPage() {
   if (!hasDatabase() || !(await isModerator())) notFound();
-  const groups = await openRedCases(db());
+  const [groups, takedowns] = await Promise.all([openRedCases(db()), openTakedowns(db())]);
 
   return (
     <main className="mx-auto flex max-w-3xl flex-col gap-6 px-4 py-10">
@@ -53,6 +61,30 @@ export default async function PanelPage() {
         reports or an official outcome, notice to the staff member, and 7 days for their reply. Members with a tie to the
         institution step aside. Check that published details cannot identify the reporter.
       </p>
+      <section className="flex flex-col gap-3">
+        <h2 className="text-lg font-semibold">Takedown and appeal requests</h2>
+        {takedowns.length === 0 && <p className="text-sm text-neutral-500">None open.</p>}
+        {takedowns.map((t) => (
+          <article key={t.id} className="flex flex-col gap-2 rounded-lg border border-neutral-200 p-3 text-sm dark:border-neutral-800">
+            <p className={`text-xs ${new Date(t.dueBy) < new Date() ? "font-medium text-red-700" : "text-neutral-500"}`}>
+              From: {t.requesterRole} · {t.contactEmail ?? "no email"} · answer by {new Date(t.dueBy).toLocaleString()}
+            </p>
+            <p className="rounded bg-neutral-100 p-2 dark:bg-neutral-900">{t.content}</p>
+            <p className="whitespace-pre-line">{t.reason}</p>
+            {t.staffId && <Link href={`/staff/${t.staffId}`} className="w-fit text-xs underline">Open profile</Link>}
+            <form action={takedown} className="flex flex-col gap-2">
+              <input type="hidden" name="id" value={t.id} />
+              <textarea name="reasons" required minLength={10} rows={2} placeholder="Reasons (recorded)" className={input} />
+              <div className="flex gap-2">
+                <button name="decision" value="remove" className="rounded bg-red-700 px-3 py-1 text-white">Remove</button>
+                <button name="decision" value="keep" className="rounded bg-neutral-700 px-3 py-1 text-white">Keep</button>
+              </div>
+            </form>
+          </article>
+        ))}
+      </section>
+
+      <h2 className="text-lg font-semibold">Red-flag cases</h2>
       {groups.length === 0 && <p className="text-neutral-500">No open cases.</p>}
       {groups.map((g) => {
         const credible = g.cases.filter((c) => c.status === "kept_on_file").length;
